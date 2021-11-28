@@ -1,0 +1,62 @@
+*{
+  list-style: none;
+
+}
+.App {
+  text-align: center;
+  color: white;
+  min-height: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #211D40;
+  overflow: hidden;
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 210px;
+  width: 210px;
+  margin: 30px;
+}
+img{
+  border: 5px groove yellowgreen;
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  
+}
+
+input{
+  padding: 16.2px 100px;
+}
+button{
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #211D40;
+  border: none;
+  padding: 14px 10px;
+  border-radius: 0px 10px 10px 0px;
+  border-left: none;
+  background-color: yellowgreen;
+}
+button:hover{
+  background-color: rgb(134, 182, 40);
+  cursor: pointer;
+}
+
+h2{
+  font-size: 3rem;
+}
